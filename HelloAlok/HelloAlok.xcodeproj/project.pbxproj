@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332EFD9B1DA85B4C00071398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 332EFD9A1DA85B4C00071398 /* main.m */; };
+		332EFD9E1DA85B4C00071398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 332EFD9D1DA85B4C00071398 /* AppDelegate.m */; };
+		332EFDA11DA85B4C00071398 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332EFDA01DA85B4C00071398 /* ViewController.m */; };
+		332EFDA41DA85B4C00071398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332EFDA21DA85B4C00071398 /* Main.storyboard */; };
+		332EFDA61DA85B4C00071398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332EFDA51DA85B4C00071398 /* Assets.xcassets */; };
+		332EFDA91DA85B4C00071398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332EFDA71DA85B4C00071398 /* LaunchScreen.storyboard */; };
+		332EFDB41DA85B4C00071398 /* HelloAlokTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332EFDB31DA85B4C00071398 /* HelloAlokTests.m */; };
+		332EFDBF1DA85B4C00071398 /* HelloAlokUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332EFDBE1DA85B4C00071398 /* HelloAlokUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		332EFDB01DA85B4C00071398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 332EFD8E1DA85B4C00071398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332EFD951DA85B4C00071398;
+			remoteInfo = HelloAlok;
+		};
+		332EFDBB1DA85B4C00071398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 332EFD8E1DA85B4C00071398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332EFD951DA85B4C00071398;
+			remoteInfo = HelloAlok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		332EFD961DA85B4C00071398 /* HelloAlok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAlok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		332EFD9A1DA85B4C00071398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		332EFD9C1DA85B4C00071398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		332EFD9D1DA85B4C00071398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		332EFD9F1DA85B4C00071398 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		332EFDA01DA85B4C00071398 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		332EFDA31DA85B4C00071398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		332EFDA51DA85B4C00071398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		332EFDA81DA85B4C00071398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		332EFDAA1DA85B4C00071398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332EFDAF1DA85B4C00071398 /* HelloAlokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAlokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		332EFDB31DA85B4C00071398 /* HelloAlokTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAlokTests.m; sourceTree = "<group>"; };
+		332EFDB51DA85B4C00071398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332EFDBA1DA85B4C00071398 /* HelloAlokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAlokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		332EFDBE1DA85B4C00071398 /* HelloAlokUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAlokUITests.m; sourceTree = "<group>"; };
+		332EFDC01DA85B4C00071398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		332EFD931DA85B4C00071398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332EFDAC1DA85B4C00071398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332EFDB71DA85B4C00071398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332EFD8D1DA85B4C00071398 = {
+			isa = PBXGroup;
+			children = (
+				332EFD981DA85B4C00071398 /* HelloAlok */,
+				332EFDB21DA85B4C00071398 /* HelloAlokTests */,
+				332EFDBD1DA85B4C00071398 /* HelloAlokUITests */,
+				332EFD971DA85B4C00071398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		332EFD971DA85B4C00071398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				332EFD961DA85B4C00071398 /* HelloAlok.app */,
+				332EFDAF1DA85B4C00071398 /* HelloAlokTests.xctest */,
+				332EFDBA1DA85B4C00071398 /* HelloAlokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		332EFD981DA85B4C00071398 /* HelloAlok */ = {
+			isa = PBXGroup;
+			children = (
+				332EFD9C1DA85B4C00071398 /* AppDelegate.h */,
+				332EFD9D1DA85B4C00071398 /* AppDelegate.m */,
+				332EFD9F1DA85B4C00071398 /* ViewController.h */,
+				332EFDA01DA85B4C00071398 /* ViewController.m */,
+				332EFDA21DA85B4C00071398 /* Main.storyboard */,
+				332EFDA51DA85B4C00071398 /* Assets.xcassets */,
+				332EFDA71DA85B4C00071398 /* LaunchScreen.storyboard */,
+				332EFDAA1DA85B4C00071398 /* Info.plist */,
+				332EFD991DA85B4C00071398 /* Supporting Files */,
+			);
+			path = HelloAlok;
+			sourceTree = "<group>";
+		};
+		332EFD991DA85B4C00071398 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				332EFD9A1DA85B4C00071398 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		332EFDB21DA85B4C00071398 /* HelloAlokTests */ = {
+			isa = PBXGroup;
+			children = (
+				332EFDB31DA85B4C00071398 /* HelloAlokTests.m */,
+				332EFDB51DA85B4C00071398 /* Info.plist */,
+			);
+			path = HelloAlokTests;
+			sourceTree = "<group>";
+		};
+		332EFDBD1DA85B4C00071398 /* HelloAlokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				332EFDBE1DA85B4C00071398 /* HelloAlokUITests.m */,
+				332EFDC01DA85B4C00071398 /* Info.plist */,
+			);
+			path = HelloAlokUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		332EFD951DA85B4C00071398 /* HelloAlok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332EFDC31DA85B4C00071398 /* Build configuration list for PBXNativeTarget "HelloAlok" */;
+			buildPhases = (
+				332EFD921DA85B4C00071398 /* Sources */,
+				332EFD931DA85B4C00071398 /* Frameworks */,
+				332EFD941DA85B4C00071398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAlok;
+			productName = HelloAlok;
+			productReference = 332EFD961DA85B4C00071398 /* HelloAlok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		332EFDAE1DA85B4C00071398 /* HelloAlokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332EFDC61DA85B4C00071398 /* Build configuration list for PBXNativeTarget "HelloAlokTests" */;
+			buildPhases = (
+				332EFDAB1DA85B4C00071398 /* Sources */,
+				332EFDAC1DA85B4C00071398 /* Frameworks */,
+				332EFDAD1DA85B4C00071398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332EFDB11DA85B4C00071398 /* PBXTargetDependency */,
+			);
+			name = HelloAlokTests;
+			productName = HelloAlokTests;
+			productReference = 332EFDAF1DA85B4C00071398 /* HelloAlokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		332EFDB91DA85B4C00071398 /* HelloAlokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332EFDC91DA85B4C00071398 /* Build configuration list for PBXNativeTarget "HelloAlokUITests" */;
+			buildPhases = (
+				332EFDB61DA85B4C00071398 /* Sources */,
+				332EFDB71DA85B4C00071398 /* Frameworks */,
+				332EFDB81DA85B4C00071398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332EFDBC1DA85B4C00071398 /* PBXTargetDependency */,
+			);
+			name = HelloAlokUITests;
+			productName = HelloAlokUITests;
+			productReference = 332EFDBA1DA85B4C00071398 /* HelloAlokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		332EFD8E1DA85B4C00071398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ChaubeyAlok;
+				TargetAttributes = {
+					332EFD951DA85B4C00071398 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					332EFDAE1DA85B4C00071398 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 332EFD951DA85B4C00071398;
+					};
+					332EFDB91DA85B4C00071398 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 332EFD951DA85B4C00071398;
+					};
+				};
+			};
+			buildConfigurationList = 332EFD911DA85B4C00071398 /* Build configuration list for PBXProject "HelloAlok" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 332EFD8D1DA85B4C00071398;
+			productRefGroup = 332EFD971DA85B4C00071398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				332EFD951DA85B4C00071398 /* HelloAlok */,
+				332EFDAE1DA85B4C00071398 /* HelloAlokTests */,
+				332EFDB91DA85B4C00071398 /* HelloAlokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332EFD941DA85B4C00071398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332EFDA91DA85B4C00071398 /* LaunchScreen.storyboard in Resources */,
+				332EFDA61DA85B4C00071398 /* Assets.xcassets in Resources */,
+				332EFDA41DA85B4C00071398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332EFDAD1DA85B4C00071398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332EFDB81DA85B4C00071398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		332EFD921DA85B4C00071398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332EFDA11DA85B4C00071398 /* ViewController.m in Sources */,
+				332EFD9E1DA85B4C00071398 /* AppDelegate.m in Sources */,
+				332EFD9B1DA85B4C00071398 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332EFDAB1DA85B4C00071398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332EFDB41DA85B4C00071398 /* HelloAlokTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332EFDB61DA85B4C00071398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332EFDBF1DA85B4C00071398 /* HelloAlokUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		332EFDB11DA85B4C00071398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 332EFD951DA85B4C00071398 /* HelloAlok */;
+			targetProxy = 332EFDB01DA85B4C00071398 /* PBXContainerItemProxy */;
+		};
+		332EFDBC1DA85B4C00071398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 332EFD951DA85B4C00071398 /* HelloAlok */;
+			targetProxy = 332EFDBB1DA85B4C00071398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		332EFDA21DA85B4C00071398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				332EFDA31DA85B4C00071398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		332EFDA71DA85B4C00071398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				332EFDA81DA85B4C00071398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		332EFDC11DA85B4C00071398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		332EFDC21DA85B4C00071398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		332EFDC41DA85B4C00071398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloAlok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaublins.HelloAlok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		332EFDC51DA85B4C00071398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloAlok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaublins.HelloAlok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		332EFDC71DA85B4C00071398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloAlokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaublins.HelloAlokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAlok.app/HelloAlok";
+			};
+			name = Debug;
+		};
+		332EFDC81DA85B4C00071398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloAlokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaublins.HelloAlokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAlok.app/HelloAlok";
+			};
+			name = Release;
+		};
+		332EFDCA1DA85B4C00071398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HelloAlokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaublins.HelloAlokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HelloAlok;
+			};
+			name = Debug;
+		};
+		332EFDCB1DA85B4C00071398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HelloAlokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaublins.HelloAlokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HelloAlok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		332EFD911DA85B4C00071398 /* Build configuration list for PBXProject "HelloAlok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332EFDC11DA85B4C00071398 /* Debug */,
+				332EFDC21DA85B4C00071398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332EFDC31DA85B4C00071398 /* Build configuration list for PBXNativeTarget "HelloAlok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332EFDC41DA85B4C00071398 /* Debug */,
+				332EFDC51DA85B4C00071398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		332EFDC61DA85B4C00071398 /* Build configuration list for PBXNativeTarget "HelloAlokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332EFDC71DA85B4C00071398 /* Debug */,
+				332EFDC81DA85B4C00071398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		332EFDC91DA85B4C00071398 /* Build configuration list for PBXNativeTarget "HelloAlokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332EFDCA1DA85B4C00071398 /* Debug */,
+				332EFDCB1DA85B4C00071398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 332EFD8E1DA85B4C00071398 /* Project object */;
+}
